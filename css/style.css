@@ -29,6 +29,17 @@ html{
     border: 0;
     transition: .2s;
 }
+.btn-contato-form button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0567df;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    transition: .2s;
+}
 button:hover{
     box-shadow: 0px 0px 8px #0056b3 ;
     transform: scale(1.05);
