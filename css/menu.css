@@ -116,3 +116,11 @@ header nav.menu-desktop ul li{
 }
 
 /* Final do inicio de cabeçalho */
+@media (max-width: 1360px){
+header.rolagem {
+    background-color: #00222d;
+    padding: 10px 4%;
+    top: -6%;
+    height: 22%;
+}
+}
