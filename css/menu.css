@@ -7,6 +7,7 @@ header{
     background-color: #00222d41;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 header.rolagem{
