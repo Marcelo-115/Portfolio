@@ -144,9 +144,14 @@ section.topo-do-site .flex{
         margin-bottom: 30px;
         margin-top: 30px;
         border-radius: 10px;
+        filter: grayscale(100%);
+        
     }
   div.img-sobre img:hover{
         border: 3px solid #00222d;
+        filter: grayscale(0%);
+        transition: 2s;
+
     }
 
 
@@ -424,7 +429,6 @@ footer .line-footer p a{
     color: #fff;
 
 }
-
 
 
 
