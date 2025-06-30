@@ -1,187 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal - Marcelo Barboza</title>
+    <meta name="description" content="Portfólio de Marcelo Barboza - Desenvolvedor Web especializado em websites, lojas online e blogs.">
+    <meta name="keywords" content="Portfólio, Desenvolvedor, Web, Marcelo Barboza">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="js/menu.js" defer></script>
-    <title>Portifolio Pessoal</title>
 </head>
 <body>
-    <header id="inicio">
+    <header id="header">
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="imagens/logo_portifolio.svg" alt="logo do portifolio" width="250px">
+                    <img src="imagens/logo_portifolio.svg" alt="Logo do portfólio Marcelo Barboza" width="250">
                 </a>
-            </div><!--Final da div logo-->
+            </div>
             <nav class="menu-desktop">
-            <ul>
-                <li><a href="#"> HOME </a></li> 
-                <li><a href="#especialidades"> ESPECIALIDADES </a></li>
-                <li><a href="#sobre"> SOBRE </a></li> 
-                <li><a href="#projetos"> PROJETOS </a></li>
-            </ul>
+                <ul>
+                    <li><a href="#inicio">HOME</a></li>
+                    <li><a href="#especialidades">ESPECIALIDADES</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#contatos">
-                    <button>Contato</button>
-                </a>
-            </div><!--Final da div button-->
-			
-        <div class="btn-abrir-menu" id="btn-menu">
-            <i class="bi bi-list"></i>
-        </div>
-     
-     
-     <div class="menu-mobile" id="menu-mobile">
-            <div class="btn-fechar" id="btn-fechar">
-                <i class="bi bi-x"></i>
+                <a href="#contatos"><button>Contato</button></a>
             </div>
-			
-			<nav>
-            <ul>
-                <li><a href="#inicio"> HOME </a></li> 
-                <li><a href="#especialidades"> ESPECIALIDADES </a></li>
-                <li><a href="#sobre"> SOBRE </a></li> 
-                <li><a href="#projetos"> PROJETOS </a></li>
-                <li><a href="#contatos">CONTATOS</a></li>
-            </ul>
-            </nav>
-     </div>
-        <div class="overlay-menu" id="overlay-menu"></div>
-    </div><!--Final da div interface-->
+
+            <div class="btn-abrir-menu" id="btn-menu" aria-label="Abrir menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar" id="btn-fechar" aria-label="Fechar menu">
+                    <i class="bi bi-x"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">HOME</a></li>
+                        <li><a href="#especialidades">ESPECIALIDADES</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#projetos">PROJETOS</a></li>
+                        <li><a href="#contatos">CONTATOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
     </header>
-  <main>
-    <section class="topo-do-site" id="inicio">
-		<div class="interface">
-        <div class="flex">
-            <div class="txt-topo-site">
-                <h1 class="titulo" >Transformando sonhos em realidade virtual </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis dolore minus non harum placeat cumque. Sunt error aspernatur maiores.
-                </p>
-               
-                <div class="btn-contato">
-                    <a href="#contatos">
-                        <button>Entre em contato</button>
-                    </a>
-                </div>
-           </div>  <!-- final da div txt-topo-site   -->
-            <div class="img-topo-site">
-                <img src="imagens/perfil.png" alt="imagem de perfil">
-            </div>  <!-- final da div img-topo-site   -->
-        </div>
-		</div>
-    </section>   <!-- Final da seçao topo do site -->
 
-    <section class="especialidades" id="especialidades">
-		<div class="interface">
-            <h2 class="titulo-secao">Minhas especialidades</h2>
-        <div class="flex">
-            <div class="especialidades-box">
-                <i class="bi bi-code-square"></i>
-                    <h3 >Website</h3>
-                    <p >Esta é uma breve descrição do conteúdo do card. Pode incluir qualquer informação relevante que você queira compartilhar.</p>
-            </div> <!---Especialidades box-->
-            <div class="especialidades-box">
-                <i class="bi bi-cart"></i>
-                    <h3 >Loja online</h3>
-                    <p >Esta é uma breve descrição do conteúdo do card. Pode incluir qualquer informação relevante que você queira compartilhar.</p>
-            </div> <!---Especialidades box-->
-            <div class="especialidades-box">
-                <i class="bi bi-wordpress"></i>
-                    <h3 >Blog</h3>
-                    <p >Esta é uma breve descrição do conteúdo do card. Pode incluir qualquer informação relevante que você queira compartilhar.</p>
-            </div> <!---Especialidades box-->
-            
-        </div>
-		</div>
-    </section>   <!-- Final da seçao especialidades -->
-
-    <section class="sobre" id="sobre">
-        <div class="interface">
-            <div class="flex">
-                <div class="img-sobre">
-                    <img src="imagens/perfil.png" alt="foto-perfil">
-                </div> <!-- Final da div img-sobre -->
-                <div class="txt-sobre">
-                    
-                    <h2>Muito prazer, <span>sou Marcelo Barboza.</span></h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorum deleniti modi omnis repellat dolore corrupti voluptas sint eos. Consequuntur, itaque error repudiandae libero ipsam iure ducimus excepturi deserunt provident!
-                    </p> <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nobis illo, error consequuntur eum officia deleniti eius perferendis quidem corrupti quod nihil pariatur nulla incidunt id facere corporis. Necessitatibus, excepturi.</p> <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nobis illo, error consequuntur eum officia deleniti eius perferendis quidem corrupti quod nihil pariatur nulla incidunt id facere corporis. Necessitatibus, excepturi.</p>
-                <div class="btn-social">
-                    <a href=""><button><i class="bi bi-instagram"></i></button></a>
-                    <a href=""><button><i class="bi bi-facebook"></i></button></a>
-                    <a href=""><button><i class="bi bi-linkedin"></i></button></a>
-                </div> <!-- final da div txt-sobre sobre  -->
-
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 class="titulo">Transformando sonhos em realidade virtual</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis dolore minus non harum placeat cumque. Sunt error aspernatur maiores.</p>
+                        <div class="btn-contato">
+                            <a href="#contatos"><button>Entre em contato</button></a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="imagens/perfil.png" alt="Foto de Marcelo Barboza" loading="lazy">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> <!-- Final da seçao sobre -->
-    <section id="projetos" class="portifolio">
-        <div class="interface">
-            <h2 class="titulo-secao">Projetos Pessoais</h2>
-            <div class="flex">
-                      <div class="img-port" style="background-image: url(imagens/Projeto01.jpeg);">
-                        <div class="overlay">
-                            Projeto 01
+        </section>
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo-secao">Minhas especialidades</h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Desenvolvimento de sites modernos, responsivos e com performance otimizada.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Criação de e-commerces completos, com foco em conversão e usabilidade.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blog</h3>
+                        <p>Desenvolvimento de blogs profissionais e fáceis de gerenciar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="imagens/perfil.png" alt="Foto de Marcelo Barboza em preto e branco" loading="lazy">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>Muito prazer, <span>sou Marcelo Barboza.</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorum deleniti modi omnis repellat dolore corrupti voluptas sint eos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nobis illo, error consequuntur eum officia deleniti eius perferendis.</p>
+                        <div class="btn-social">
+                            <a href="#" aria-label="Instagram"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#" aria-label="Facebook"><button><i class="bi bi-facebook"></i></button></a>
+                            <a href="#" aria-label="LinkedIn"><button><i class="bi bi-linkedin"></i></button></a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="portifolio">
+            <div class="interface">
+                <h2 class="titulo-secao">Projetos Pessoais</h2>
+                <div class="flex">
                     <div class="img-port" style="background-image: url(imagens/Projeto01.jpeg);">
-                        <div class="overlay">
-                            Projeto 02
-                        </div>
+                        <div class="overlay">Projeto 01</div>
                     </div>
                     <div class="img-port" style="background-image: url(imagens/Projeto01.jpeg);">
-                        <div class="overlay">
-                            Projeto 03
-                        </div>                           
+                        <div class="overlay">Projeto 02</div>
                     </div>
-                </div><!-- Final da div flex -->
-        </div><!-- Final da div interface -->
-    </section> <!-- Final da seçao projetos -->
-    <section id="contatos" class="formulario">
-		<div class="interface">
-		<h2 class="titulo-secao">FALE CONOSCO</h2>
-        <div class="contatos-formulario btn-contato-form">
-            <form action="https://formsubmit.co/barbozamarcelo392@gmail.com" method="post">
-             <input type="text" placeholder="Nome completo" required>
-             <input type="text" placeholder="Email"  required> 
-             <input type="text" placeholder="Insira seu telefone" required> 
-             <textarea cols="40" rows="10" placeholder="Como posso ajudar?" id="mensagem" required></textarea> 
-             <button type="submit" onclick="enviar">Enviar</button>
-            </form>
-        </div>
-		</div>
-    </section> <!-- Final da seçao formulario -->
+                    <div class="img-port" style="background-image: url(imagens/Projeto01.jpeg);">
+                        <div class="overlay">Projeto 03</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="formulario">
+            <div class="interface">
+                <h2 class="titulo-secao">Fale conosco</h2>
+                <div class="contatos-formulario btn-contato-form">
+                    <form action="https://formsubmit.co/barbozamarcelo392@gmail.com" method="post">
+                        <input type="text" name="nome" placeholder="Nome completo" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="telefone" placeholder="Insira seu telefone" required>
+                        <textarea name="mensagem" placeholder="Como posso ajudar?" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer >
-		<div class="interface">
+
+    <footer>
+        <div class="interface">
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="imagens/logo_portifolio.svg" alt="logo" width="250px">
-                    </div><!-- final da div logo footer  -->
+                        <img src="imagens/logo_portifolio.svg" alt="Logo do rodapé de Marcelo Barboza" width="250">
+                    </div>
                     <div class="btn-social">
-                        <a href=""><button><i class="bi bi-instagram"></i></button></a>
-                        <a href=""><button><i class="bi bi-facebook"></i></button></a>
-                        <a href=""><button><i class="bi bi-linkedin"></i></button></a>
-                    </div> <!-- final da div btn social  -->
-              </div> <!-- final da div flex  -->
-            </div><!-- final da div line footer  -->
+                        <a href="#" aria-label="Instagram"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#" aria-label="Facebook"><button><i class="bi bi-facebook"></i></button></a>
+                        <a href="#" aria-label="LinkedIn"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div>
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i><a href="mailto:barbozamarcelo392@gmail.com">barbozamarcelo392@gmail.com</a></p>
-            </div><!-- final da div line footer  -->
-		</div><!-- final da div interface -->
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:barbozamarcelo392@gmail.com">barbozamarcelo392@gmail.com</a></p>
+            </div>
+        </div>
     </footer>
+
     <script src="js/rolagem-menu.js"></script>
 </body>
 </html>
