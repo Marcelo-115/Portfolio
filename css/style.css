@@ -343,3 +343,49 @@ footer .line-footer p a {
         flex-direction: column;
     }
 }
+
+/* Deixe o menu desktop oculto em telas menores */
+@media screen and (max-width: 1140px) {
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  .btn-abrir-menu {
+    display: block;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  section.topo-do-site {
+    padding-top: 150px;
+  }
+
+  .topo-do-site .img-topo-site img {
+    width: 180px;
+  }
+
+  .topo-do-site h1 {
+    font-size: 28px;
+  }
+
+  .especialidades .flex,
+  .portifolio .flex,
+  .sobre .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .img-port {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1141px) {
+  .btn-abrir-menu {
+    display: none;
+  }
+}
+
