@@ -1,0 +1,254 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2.titulo span{
+    color: #00a885;
+}
+
+
+/*Botao do site*/
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00a885;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+
+}
+
+.btn-contato button:hover{
+  box-shadow: 0px 0px 8px #00a885;
+  transform: scale(1.05);
+}
+
+
+
+
+/*Estilo Topo do site*/
+
+
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+   align-items: center;
+   justify-content: center; 
+   gap: 90px;
+}
+
+
+.topo-do-site .txt-topo-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #00a885;
+}
+
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0% {
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
+}
+
+
+
+
+/*Especialidades*/
+
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .5s;
+}
+
+.especialidades .especialidades-box:hover{
+    box-shadow: 0px 0px 8px #00a885;
+    transform: scale(1.05);
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #00a885;
+}
+
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/*==============SOBRE===============*/
+
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+
+.sobre .txt-sobre h2{
+    font-size: 38px;
+    color: #fff;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #00a885;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    color: #fff;
+    margin: 20px 0;
+    line-height: 20px;
+    text-align: justify;
+
+}
+
+.sobre .img-sobre img{
+    width: 250px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    transition: filter 2s, border 0.3s;
+}
+
+.sobre .img-sobre img:hover{
+    filter: grayscale(0);
+}
+
+/*============================================*/
+/*================BOTOES-SOCIAL===============*/
+/*============================================*/
+
+.btn-social{
+    display: flex;
+}
+
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #00a885;
+    font-size: 22px;
+    border: none;
+    margin:0 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-social button:hover{
+    transform: scale(1.05);
+}
+
+/*============================================*/
+/*================Projetos Pessoais===========*/
+/*============================================*/
+
+
+section.portfolio{
+    padding: 80px 0;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+}
+
+.portfolio .img-port{
+    width: 320px;
+    height:400px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: background-position 5s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    color: #dcd9d9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00222dd7;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.img-port:hover .overlay {
+    opacity: 1;
+}

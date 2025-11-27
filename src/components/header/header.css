@@ -1,0 +1,38 @@
+div.logo{
+  margin: 5px;
+}
+
+header a{
+  text-decoration: none;
+  color: #a39f9f;
+  display: inline-block;
+}
+header a:hover{
+  color:#fff;
+  transform: scale(1.05);
+  transition: .2s;
+}
+
+
+
+header{
+  padding: 5px 4%;
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+
+
